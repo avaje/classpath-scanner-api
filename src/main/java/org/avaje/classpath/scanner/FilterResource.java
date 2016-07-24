@@ -43,8 +43,8 @@ public class FilterResource {
 
     @Override
     public boolean isMatch(String resourceName) {
-
-      String fileName = resourceName.substring(resourceName.lastIndexOf(File.separator) + 1);
+      // FIX: Use '/' instead of File.separator, as resources always use '/' as separator
+      String fileName = resourceName.substring(resourceName.lastIndexOf('/') + 1);
       return fileName.startsWith(prefix) && fileName.endsWith(suffix);
     }
   }
