@@ -9,11 +9,11 @@
   </parent>
 
   <artifactId>avaje-classpath-scanner-api</artifactId>
-  <version>3.3-SNAPSHOT</version>
+  <version>3.3</version>
 
   <scm>
     <developerConnection>scm:git:git@github.com:avaje-common/avaje-classpath-scanner-api.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>avaje-classpath-scanner-api-3.3</tag>
   </scm>
 
   <dependencies>
