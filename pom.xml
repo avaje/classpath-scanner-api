@@ -12,9 +12,7 @@
   <version>3.2-SNAPSHOT</version>
 
   <scm>
-    <connection>scm:git:https://github.com/avaje-common/avaje-classpath-scanner-api.git</connection>
-    <developerConnection>scm:git:https://github.com/avaje-common/avaje-classpath-scanner-api.git</developerConnection>
-    <url>https://github.com/avaje-common/avaje-classpath-scanner-api.git</url>
+    <developerConnection>scm:git:git@github.com/avaje-common/avaje-classpath-scanner-api.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 

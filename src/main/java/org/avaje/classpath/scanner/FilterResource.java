@@ -1,7 +1,5 @@
 package org.avaje.classpath.scanner;
 
-import java.io.File;
-
 /**
  * Some common resource matching predicates.
  */

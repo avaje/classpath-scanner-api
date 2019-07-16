@@ -2,12 +2,13 @@ package org.avaje.classpath.scanner;
 
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
 
 public class FilterResourceTest {
 
   @Test
-  public void byPrefixSuffix_when_match() throws Exception {
+  public void byPrefixSuffix_when_match() {
 
     ResourceFilter match = FilterResource.byPrefixSuffix("oe_", ".txt");
 
@@ -18,7 +19,7 @@ public class FilterResourceTest {
   }
 
   @Test
-  public void byPrefixSuffix_when_notMatch() throws Exception {
+  public void byPrefixSuffix_when_notMatch() {
 
     ResourceFilter match = FilterResource.byPrefixSuffix("oe_", ".txt");
 
@@ -32,7 +33,7 @@ public class FilterResourceTest {
   }
 
   @Test
-  public void bySuffix_when_match() throws Exception {
+  public void bySuffix_when_match() {
 
     ResourceFilter match = FilterResource.bySuffix(".txt");
 
@@ -44,7 +45,7 @@ public class FilterResourceTest {
   }
 
   @Test
-  public void bySuffix_when_notMatch() throws Exception {
+  public void bySuffix_when_notMatch() {
 
     ResourceFilter match = FilterResource.bySuffix(".txt");
 
@@ -56,7 +57,7 @@ public class FilterResourceTest {
   }
 
   @Test
-  public void byPrefix() throws Exception {
+  public void byPrefix() {
 
     ResourceFilter match = FilterResource.byPrefix("a.b");
 
@@ -69,7 +70,7 @@ public class FilterResourceTest {
   }
 
   @Test
-  public void byPrefix_notMatch() throws Exception {
+  public void byPrefix_notMatch() {
 
     ResourceFilter match = FilterResource.byPrefix("a.b");
 
