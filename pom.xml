@@ -13,7 +13,7 @@
 
   <scm>
     <developerConnection>scm:git:git@github.com:avaje-common/avaje-classpath-scanner-api.git</developerConnection>
-    <tag>avaje-classpath-scanner-api-3.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
