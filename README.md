@@ -1,2 +1,2 @@
-# avaje-classpath-scanner-api
+# classpath-scanner-api
 API for classpath scanner service

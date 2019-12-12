@@ -1,4 +1,4 @@
-package org.avaje.classpath.scanner;
+package io.avaje.classpath.scanner;
 
 /**
  * Factory for the ClassPathScanner service.

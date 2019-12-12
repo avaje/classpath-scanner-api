@@ -1,4 +1,4 @@
-package org.avaje.classpath.scanner;
+package io.avaje.classpath.scanner;
 
 /**
  * Some common resource matching predicates.

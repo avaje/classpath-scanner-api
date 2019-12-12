@@ -1,4 +1,4 @@
-package org.avaje.classpath.scanner;
+package io.avaje.classpath.scanner;
 
 /**
  * Filter predicate to determine which scanned resources should be returned.
