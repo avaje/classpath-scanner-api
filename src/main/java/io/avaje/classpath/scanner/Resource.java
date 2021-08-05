@@ -27,12 +27,12 @@ public interface Resource {
   /**
    * Return the location of the resource on the classpath (path and filename).
    */
-  String getLocation();
+  String location();
 
   /**
-   * Return the filename of this resource, without the path.
+   * Return the name of this resource, without the path.
    */
-  String getFilename();
+  String name();
 
   /**
    * Return the content as InputStream.
