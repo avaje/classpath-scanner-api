@@ -3,6 +3,7 @@ package io.avaje.classpath.scanner;
 /**
  * Filter predicate to determine which scanned resources should be returned.
  */
+@FunctionalInterface
 public interface ResourceFilter {
 
   /**

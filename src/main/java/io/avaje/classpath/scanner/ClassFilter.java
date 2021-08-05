@@ -3,6 +3,7 @@ package io.avaje.classpath.scanner;
 /**
  * Filter predicate to determine which scanned classes should be included.
  */
+@FunctionalInterface
 public interface ClassFilter {
 
   /**

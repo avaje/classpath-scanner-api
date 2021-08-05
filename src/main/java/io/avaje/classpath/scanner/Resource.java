@@ -15,6 +15,10 @@
  */
 package io.avaje.classpath.scanner;
 
+import java.io.InputStream;
+import java.nio.charset.Charset;
+import java.util.List;
+
 /**
  * A loadable resource.
  */
@@ -26,25 +30,23 @@ public interface Resource {
   String getLocation();
 
   /**
-   * Return the location of this resource on disk.
-   */
-  String getLocationOnDisk();
-
-  /**
-   * Return the content of this resource as a string.
-   *
-   * @param encoding The encoding to use.
-   * @return The string contents of the resource.
-   */
-  String loadAsString(String encoding);
-
-  /**
-   * Return the context of this resource as a byte array.
-   */
-  byte[] loadAsBytes();
-
-  /**
    * Return the filename of this resource, without the path.
    */
   String getFilename();
+
+  /**
+   * Return the content as InputStream.
+   */
+  InputStream inputStream();
+
+  /**
+   * Return the content as lines.
+   */
+  List<String> loadAsLines(Charset charset);
+
+  /**
+   * Return the content of this resource as a string.
+   */
+  String loadAsString(Charset charset);
+
 }
